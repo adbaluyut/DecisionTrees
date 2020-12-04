@@ -459,7 +459,7 @@ public class ID3 {
 			double accuracy = (double)sum / 100 * 100;
 			
 			BufferedWriter bw = new BufferedWriter(fw);
-			bw.write("\nThe accuracy of the decision tree is " + String.valueOf(accuracy) + "%");
+			bw.write("\nThe accuracy of the decision tree is " + String.valueOf(accuracy) + "%\n");
 			bw.close();
 
 		} catch (Exception e) {
